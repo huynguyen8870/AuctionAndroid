@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.user.UserFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/blue_700">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/avatar1" />
+
+            <TextView
+                android:id="@+id/txt_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Huy Nguyen"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Order : "
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/txt_username"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/txt_number_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="50"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/textView13"
+                app:layout_constraintTop_toTopOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Balance : "
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/txt_username"
+                app:layout_constraintTop_toBottomOf="@+id/txt_username" />
+
+            <TextView
+                android:id="@+id/txt_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="$1000"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/textView11"
+                app:layout_constraintTop_toTopOf="@+id/textView11" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_balance"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:drawableLeft="@drawable/ic_balance"
+        android:text="Balance"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:iconPadding="10dp"
+        app:iconTint="@color/blue_500"
+        app:rippleColor="@color/blue_500" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:drawableLeft="@drawable/ic_profile"
+        android:drawablePadding="10dp"
+        android:text="Profile"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:iconPadding="10dp"
+        app:iconTint="@color/blue_500"
+        app:rippleColor="@color/blue_500" />
+
+    <Button
+        android:id="@+id/btn_change_password"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:text="Change Password"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:iconPadding="10dp"
+        app:iconTint="@color/blue_500"
+        app:rippleColor="@color/blue_500" />
+
+    <Button
+        android:id="@+id/btn_setting"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:drawableLeft="@drawable/ic_setting"
+        android:drawablePadding="10dp"
+        android:text="Setting"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:iconPadding="10dp"
+        app:iconTint="@color/blue_500"
+        app:rippleColor="@color/blue_500" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:drawableLeft="@drawable/ic_logout"
+        android:drawablePadding="10dp"
+        android:text="Logout"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:iconPadding="10dp"
+        app:iconTint="@color/blue_500"
+        app:rippleColor="@color/blue_500" />
+
+    <Button
+        android:id="@+id/btn_login_test"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:drawableLeft="@drawable/ic_logout"
+        android:drawablePadding="10dp"
+        android:text="Login"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:iconPadding="10dp"
+        app:iconTint="@color/blue_500"
+        app:rippleColor="@color/blue_500" />
+
+    <Button
+        android:id="@+id/btn_register_test"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:drawableLeft="@drawable/ic_logout"
+        android:drawablePadding="10dp"
+        android:text="Register"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:iconPadding="10dp"
+        app:iconTint="@color/blue_500"
+        app:rippleColor="@color/blue_500" />
+
+</LinearLayout>

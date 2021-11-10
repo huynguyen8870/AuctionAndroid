@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/activity_balance.xml" value="0.18169398907103826" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/activity_change_password.xml" value="0.19262295081967212" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/activity_chatting.xml" value="0.2032103825136612" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/activity_login.xml" value="0.2032103825136612" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/activity_product_detail.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/activity_profile.xml" value="0.19808743169398907" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/activity_register.xml" value="0.19262295081967212" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/fragment_home.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/fragment_message.xml" value="0.2032103825136612" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/fragment_user.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/item_chat_me.xml" value="0.2032103825136612" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/item_chat_other.xml" value="0.2032103825136612" />
+        <entry key="..\:/Android/Project/AutionStore/app/src/main/res/layout/message_row.xml" value="0.2032103825136612" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable-v24/circle_border.xml" value="0.1424342105263158" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable-v24/grad.xml" value="0.1424342105263158" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable/ic_add.xml" value="0.1424342105263158" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable/ic_add_box.xml" value="0.1424342105263158" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable/ic_dollar_coin.xml" value="0.22552083333333334" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1424342105263158" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable/ic_logout.xml" value="0.22552083333333334" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable/ic_profile.xml" value="0.22552083333333334" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable/ic_search.xml" value="0.1424342105263158" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable/ic_wallet.xml" value="0.22552083333333334" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/drawable/ic_withdraw_money.xml" value="0.1424342105263158" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/activity_balance.xml" value="0.2" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/activity_change_password.xml" value="0.25" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/activity_chatting.xml" value="0.22" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/activity_main.xml" value="0.20380434782608695" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/activity_order_detail.xml" value="0.22" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/activity_product_detail.xml" value="0.20018115942028986" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/fragment_home.xml" value="0.20380434782608695" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/fragment_message.xml" value="0.25" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/fragment_order.xml" value="0.12773224043715847" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/fragment_product_detail.xml" value="0.21" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/fragment_user.xml" value="0.33" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/item_chat_me.xml" value="0.33" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/item_chat_other.xml" value="0.25" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/message_row.xml" value="0.5" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/order_row.xml" value="0.5" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/layout/product_row_item.xml" value="0.5" />
+        <entry key="..\:/Aptech/Java/android-work-space/AutionStore/app/src/main/res/menu/home_bottom_nav.xml" value="0.209375" />
+        <entry key="..\:/Aptech/Java/android-work-space/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Aptech/Java/android-work-space/app/src/main/res/layout/fragment_home.xml" value="0.12771739130434784" />
+        <entry key="..\:/Aptech/Java/android-work-space/app/src/main/res/layout/fragment_product_detail.xml" value="0.2549143944197844" />
+        <entry key="..\:/Aptech/Java/android-work-space/app/src/main/res/layout/fragment_user.xml" value="0.209375" />
+        <entry key="..\:/Aptech/Java/android-work-space/app/src/main/res/layout/product_item_row.xml" value="0.209375" />
+        <entry key="..\:/Aptech/Java/android-work-space/app/src/main/res/layout/product_row_item.xml" value="0.33" />
+        <entry key="..\:/Aptech/Java/android-work-space/app/src/main/res/menu/home_bottom_nav.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
